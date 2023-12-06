@@ -1,5 +1,7 @@
-# Proyecto Individual 02 Siniestros Viales
- 
+<h1 align='center'>
+ <b>Proyecto Individual 2 Siniestros Viales</b>
+</h1>
+
 ## Contexto de las necesidades del proyecto 
 
 Se nos pone en los zapatos de un analista de datos independiente al cual el `Observatorio de Movilidad y Seguridad Vial (OMSV)`, un centro de estudios que se encuentra bajo la órbita de la Secretaría de Transporte del Gobierno de la Ciudad Autónoma de Buenos Aires nos pide generar información que le permita a las autoridades locales tomar medidas para disminuir la cantidad de víctimas fatales de los siniestros viales. Para esto disponibilidad un dataset sobre `homicidios` en siniestros viales acaecidos en la Ciudad de Buenos Aires durante el periodo 2016-2021. El cual está en formato xlsx, pero es importante destacar que no se nos limita a utilizar solo esa información, sino que también está disponible otro data set complementario sobre `lesiones` en siniestros viales acaecidos en la Ciudad de Buenos Aires este en formato xlsx pero además se nos da campo abierto a poder consultar información que se considere levante para poder complementar el análisis esto puede ser a través de web scraping o utilizando otros data sets. 
