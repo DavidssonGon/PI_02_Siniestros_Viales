@@ -1,5 +1,5 @@
 <p align='center'>
-<"https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/Imagenes/portada.png">
+<img src ="https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/Imagenes/portada.png">
 <p>
 
 <h1 align='center'>
@@ -20,13 +20,13 @@ En este punto se identificó la relevancia del campo **“Comuna”** por lo cua
 ### EDA
 Una vez se tenía limpio y lo más normalizado el data set de `homicidios` se procedió a realizar un análisis exploratorio de los datos, empezando por la frecuencia de los valores de cada campo relevante y que porcentaje representaban, para posteriormente realizar análisis invariados de algunos campos que lo requieran empezando a encontrar información que guiaría a conclusiones concisas a través de graficas como diagramas de torta, histogramas y diagramas de barras. Luego vendría el que es el análisis más interesante, que es el análisis multivariado en el cual hay un interesante diagrama de violín analizando la distribución de las victimas por edad y sexo, aunque en su mayoría son diagramas de barras, se destaca un gráfico de análisis temporal con área bajo la línea, gráficos de líneas en series de tiempos, diagramas de puntos y un mapa de las comunas coloreado bajo la incidencia de hechos dentro del data set. 
 <p align='center'>
-<"https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/Imagenes/violin.png">
+<img src ="https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/Imagenes/violin.png">
 <p>
 
 ### KPI
 Para este ejercicio se tomó como aplicación el indicador de desempeño propuesto de *Reducir en un 7% la cantidad de accidentes mortales de motociclistas en el último año, en CABA, respecto al año anterior.* por ellos para hacerse a una idea de su resultado en un apartado dentro del Notebook del EDA se calculó el KPI en todos los años que se podía incluido el 2021 pero ya que los registros que se tienen van únicamente hasta el 18 de noviembre del 2021 se tendrán en cuenta para el KPI el año 2020. Dando como resultado que se cumplió con el indicador ya que para el año 2020 se redujo en un **44%** la cantidad de accidentes mortales de motociclistas en la ciudad de Bueno Aires. 
 <p align='center'>
-<"https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/Imagenes/%C3%A1reas.png">
+<img src ="https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/Imagenes/%C3%A1reas.png">
 <p>
 
 ### SQL 
@@ -47,7 +47,7 @@ En este punto se destaca las conclusiones ya incluidas en el EDA y que se entend
 
 > En síntesis se puede argumentar que hay una mayor frecuencia Masculina en todas las categorías, que los Conductores de Motociclistas y los Peatones son los más afectados en los sucesos debido a que también son los más vulnerables al no tener ninguna protección contra un impacto, el Automóvil suele ser el más acusado de los hechos pero también entra considerablemente los vehículos de carga, lo anterior muy relacionado a que la Avenida es el tipo de calle con más incidencia, en especial la Avenida General Paz probablemente debido a su gran extensión, las edades comprendidas desde los 25 años y los 50 años son las más registradas entre las víctimas y para terminar la Comuna número uno junto con la cuatro y la nueve registran casi un 35% de los hechos esto podría indicar que es por un tema de concentración de tráfico en estas zonas. 
 <p align='center'>
-<"https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/Imagenes/mapa_colored.png">
+<img src ="https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/Imagenes/mapa_colored.png">
 <p>
 
 ## Material de apoyo 
