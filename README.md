@@ -12,12 +12,12 @@ Se nos pone en los zapatos de un analista de datos independiente al cual el `Obs
 
 ## Proceso 
 
-### ETL
+### [ETL](https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/ETL.ipynb)
 Se empezó abriendo los data sets para verificar que información contenía en cada campo, observando su tamaño y los valores nulos. Por lo cual se empieza realizando una limpieza de valores nulos a través de transformaciones, imputaciones o eliminación de dichos valores para proceder a normalizar los nombres delos campos, el tipo de datos y organizar por una jerarquía el DataFrame, esto se hizo con la primera hoja del archivo xlsx llamada hechos. Con la segunda hoja llamada victimas la cual complementa la información de la primera se hizo exactamente el mismo proceso. Para poder generar un data set más completo se decidió a realizar un merge de ambos DataFrame de tal manera que cada fila relacionada a una víctima tuviera asociada una información de su hecho. Lo anterior se realizo de igual manera con el data set de `lesiones` ya que su estructura era muy similar. 
 
 En este punto se identificó la relevancia del campo **“Comuna”** por lo cual se buscó y encontró una base de datos con la información necesaria para poder generar un mapa donde se identifiquen todas las comunas del Ciudad de Buenos Aires, por lo cual se generó un nuevo data set con esta información guardada a disposición para posteriores procesos. (El link de este data set se encontrará al final de este documento). 
 
-### EDA
+### [EDA](https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/EDA/EDA.ipynb)
 Una vez se tenía limpio y lo más normalizado el data set de `homicidios` se procedió a realizar un análisis exploratorio de los datos, empezando por la frecuencia de los valores de cada campo relevante y que porcentaje representaban, para posteriormente realizar análisis invariados de algunos campos que lo requieran empezando a encontrar información que guiaría a conclusiones concisas a través de graficas como diagramas de torta, histogramas y diagramas de barras. Luego vendría el que es el análisis más interesante, que es el análisis multivariado en el cual hay un interesante diagrama de violín analizando la distribución de las victimas por edad y sexo, aunque en su mayoría son diagramas de barras, se destaca un gráfico de análisis temporal con área bajo la línea, gráficos de líneas en series de tiempos, diagramas de puntos y un mapa de las comunas coloreado bajo la incidencia de hechos dentro del data set. 
 <p align='center'>
 <img src ="https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/Imagenes/violin.png">
@@ -29,8 +29,8 @@ Para este ejercicio se tomó como aplicación el indicador de desempeño propues
 <img src ="https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/Imagenes/%C3%A1reas.png">
 <p>
 
-### SQL 
-Una vez se tenía el EDA concluido se procedió a crear una base de datos en el motor SQL MySQL Workbench donde se crearon tres tablas correspondientes a los data sets `homicidios`, `lesiones` y `comunas`, se procedió a cargar los datos normalizados y de esta manera ya se tenía las tres tablas con toda la información en una base de datos SQL. 
+### [SQL](https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/DB_Siniestros.sql) 
+Una vez se tenía el EDA concluido se procedió a crear una base de datos en el motor SQL MySQL Workbench donde se crearon tres tablas correspondientes a los data sets `homicidios`, `lesiones` y `comunas`, se procedió a cargar los datos normalizados y de esta manera ya se tenía las tres tablas con toda la información en una base de datos SQL. Se procedió a establecer una conexión con MySQL DataBase en PowerBI para poder importar las tablas con los datos.
 
 ## Conclusiones del EDA 
 
