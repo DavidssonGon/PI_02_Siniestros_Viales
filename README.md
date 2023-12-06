@@ -32,6 +32,9 @@ Para este ejercicio se tomó como aplicación el indicador de desempeño propues
 ### [SQL](https://github.com/DavidssonGon/PI_02_Siniestros_Viales/blob/main/DB_Siniestros.sql) 
 Una vez se tenía el EDA concluido se procedió a crear una base de datos en el motor SQL MySQL Workbench donde se crearon tres tablas correspondientes a los data sets `homicidios`, `lesiones` y `comunas`, se procedió a cargar los datos normalizados y de esta manera ya se tenía las tres tablas con toda la información en una base de datos SQL. Se procedió a establecer una conexión con MySQL DataBase en PowerBI para poder importar las tablas con los datos.
 
+### DASHBOARD 
+Se procede a realizar la conexión a la base de datos en MySQL en localhost, durante este proceso se hace necesario normalizar algunos nombres y crear algunas columnas que categoricen otra información de mejor manera como es el caso del **“RangoEtario”** para discretizar de mejor manera las edades, por supuesto también se crean medidas específicas para posteriori representar de la mejor manera el KPI por lo cual se le dedica una hoja entera del dashboard.(El link para descargar del dashboard está ubicado al final). 
+
 ## Conclusiones del EDA 
 
 En este punto se destaca las conclusiones ya incluidas en el EDA y que se entenderá de mejor manera revisándolo más a exhaustividad pero que resume de buena manera el análisis del data set `homicidios`. 
